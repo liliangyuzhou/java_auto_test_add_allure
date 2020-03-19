@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--测试套件-->
+<suite name="futureloan">
+
+    <!--测试模块-->
+    <test name="register">
+        <!--测试类-->
+        <classes>
+            <!--单个测试类定义-->
+            <class name="com.lemon.api.auto10.TestCases.RegisterTestCase_v9"></class>
+        </classes>
+
+    </test>
+
+    <!--测试模块-->
+    <test name="login">
+        <!--测试类-->
+        <classes>
+            <!--单个测试类定义-->
+            <class name="com.lemon.api.auto10.TestCases.LoginTestCase"></class>
+        </classes>
+
+    </test>
+
+    <!--测试模块-->
+    <test name="recharge">
+    <!--测试类-->
+    <classes>
+        <!--单个测试类定义-->
+        <class name="com.lemon.api.auto10.TestCases.RechargeTestCase"></class>
+    </classes>
+
+    </test>
+
+</suite>

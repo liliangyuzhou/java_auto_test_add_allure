@@ -1,0 +1,13 @@
+1.excel在paramVariable表单中，新增三列，修改了paramVariable实体类
+
+2.修改VariableUtil类
+
+之前用的第一种
+ //获取Case类的字节码，进行此类的反射
+        Class<Case> clazz= Case.class;
+// 第二种获取字节码的方式，使用forName方法,jdk提供
+                try {
+                    Class clazz=Class.forName(reflectClassPath);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
